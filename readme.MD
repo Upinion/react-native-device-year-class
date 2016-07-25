@@ -49,18 +49,21 @@ protected List<ReactPackage> getPackages() {
 
 ## Example
 
-DeviceYearClass.getYearClass()
+DeviceYearClass.getYearClass() returns a promise!
 
 Example:
 
 ```javascript
 const DeviceYearClass = require('react-native-device-year-class');
 
-const yearClass = DeviceYearClass.getYearClass();
+let animations = false;
 
-if (yearClass > 2011) {
-    animations = true;
-}
+DeviceYearClass.getYearClass()
+    .then((yearClass) => {
+        if (yearClass > 2011) {
+            animations = true;
+        }
+    });
 
 ```
 
