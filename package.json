@@ -1,0 +1,24 @@
+{
+  "name": "react-native-device-year-class",
+  "version": "0.0.1",
+  "description": "React Native DeviceYearClass allows you to estimate the peformance of an Android device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "android",
+    "performance",
+    "device",
+    "yearClass"
+  ],
+  "author": "Rogier Mars <rogier.mars@upinion.com>",
+  "license": "MIT",
+  "repository": "https://github.com/Upinion/react-native-device-year-class",
+  "bugs": "https://github.com/Upinion/react-native-device-year-class/issues",
+  "peerDependencies": {
+    "react-native": ">=0.11"
+  }
+}
