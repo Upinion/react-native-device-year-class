@@ -41,7 +41,8 @@ import com.upinion.DeviceYearClass.DeviceYearClassPackage;  // <--- import
 protected List<ReactPackage> getPackages() {
     return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new DeviceYearClassPackage()); // <-- Add this line with your package name.
+            new DeviceYearClassPackage() // <-- Add this line with your package name.
+    ); 
 }
 
 ```
