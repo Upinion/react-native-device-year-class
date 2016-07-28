@@ -1,13 +1,16 @@
 # react-native-device-year-class
-React Native DeviceYearClass allows you to estimate the peformance of an Android device.
+React Native DeviceYearClass allows you to estimate the performance of an Android device.
 
 ### Installation
 
 ```bash
-npm install --save react-native-device-year-class
+1) Add repository to package.json
+"react-native-device-year-class": "git+ssh://git@github.com:Upinion/react-native-device-year-class.git"
 
-or manually
+2) Run
+npm install
 
+or manually:
 git clone the directory to [node_modules/react-native-device-year-class]
 ```
 
